@@ -70,7 +70,7 @@ body{
 }
 
 .header-bg{
-    background-image: url(/assets/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body{
 }
 
 .cell{
-    background-image: url(/assets/img/2.jpg);
+    background-image: url(../img/2.jpg);
     height: 150px;
     background-position: center;
     border-radius: 5px;
@@ -126,7 +126,7 @@ body{
 }
 
 .cell-foto{
-    background-image: url(/assets/img/1.jpg);
+    background-image: url(../img/1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 335px;
