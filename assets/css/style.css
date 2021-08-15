@@ -10,6 +10,7 @@ a{
 
 body{
     background-color: #E4E1FF;
+  
 }
 
 .container{
@@ -20,7 +21,6 @@ body{
 
 
 /*Headeer*/
-
 
 
 
@@ -190,3 +190,98 @@ button{
 
 
 /* END footer*/
+
+
+
+
+
+
+
+
+
+
+@media (max-width:724px){
+    .header-main a{
+        margin: 5px;
+        color: white;
+    }
+}
+
+@media (max-width:724px){
+    .logo{
+       color: red;
+       
+    }
+}
+
+
+
+@media (max-width:724px){
+    .container{
+        width: 100vw;
+        background-color: black;
+        margin: 0px;
+        padding: 3px;
+       
+    }
+}
+
+
+@media (max-width:724px){
+    .cell-text{
+        color: white;  
+        margin-top: -80px;
+        padding-bottom: 10px;
+        
+    }
+}
+
+@media (max-width:724px){
+    .cellGrid{
+        margin: 10px 30px 0px;
+       
+
+        
+    }
+}
+
+
+
+@media (max-width:724px){
+    .info a{
+        color: white;    
+    }
+}
+
+
+@media (max-width:724px){
+    .grid-container{
+      width: auto;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-auto-rows: repeat(4,1fr);
+     
+    }
+}
+
+
+@media (max-width:724px){
+    .navigation{
+        justify-content: center;  
+    }
+}
+
+
+@media (max-width:724px){
+    .cell p{
+        font-size: 14px; 
+        display: none;   
+    }
+}
+
+
+@media (max-width:724px){
+    .mx-3{ 
+        display: none;   
+    }
+}
